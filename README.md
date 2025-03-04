@@ -1,5 +1,4 @@
 # Attendify_Vision
-=
 
 ## Overview
 This Attendance Management System is an automated solution using facial recognition to streamline the attendance-taking process in educational institutions. It utilizes OpenCV for face detection and recognition, providing an efficient way to manage student profiles and track attendance.
@@ -16,38 +15,6 @@ This Attendance Management System is an automated solution using facial recognit
 - OpenCV
 - NumPy
 - Other dependencies (listed in requirements.txt)
-  
-
-## Project Structure
-attendance-management-system/
-│
-├── attendance_logs/
-│ └── attendance.csv # Centralized CSV file for attendance tracking.
-│
-├── database/
-│ └── 04-03-2025/ # Folder named by current date.
-│ ├── Adv Java/ # Lecture/class folders.
-│ │ ├── Shama.txt # Individual student attendance files.
-│ │ └── Vicky.txt
-│ ├── CN/
-│ ├── IOT/
-│ └── PE/
-│
-├── dataset/
-│ ├── 1_Shama/ # Student-specific folders with face images.
-│ └── 2_Vicky/
-│
-├── src/
-│ ├── capture_image.py # Captures student images and updates students.csv.
-│ ├── check_dataset.py # Verifies dataset integrity.
-│ ├── recognize_face.py # Performs real-time face recognition and logs attendance.
-│ └── train_model.py # Trains the LBPH face recognition model.
-│
-├── trainer/
-│ └── trainer.yml # Trained model file for facial recognition.
-│
-├── haarcascade_frontalface_default.xml # Haar cascade file for face detection.
-└── students.csv # Stores student IDs and names.
 
 
 ## Usage
